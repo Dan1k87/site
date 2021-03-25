@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/fotorama.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Комиссионный магазин Белый кот</title>
+</head>
+<body>
+	<div class="wrap">
+		<!--HEADER-->
+		<header>
+			<div class="header">
+				<div class="header__row header__row_top">
+					<div class="container">
+						<div class="header__sub-menu">
+							<nav class="sub-menu">
+								<ul class="sub-menu__list">
+									<li class="sub-menu__item"><a href="" class="sub-menu__link">Акции</a></li>
+									<li class="sub-menu__item"><a href="" class="sub-menu__link">Вакансии</a></li>
+									<li class="sub-menu__item"><a href="" class="sub-menu__link">Доставка/Оплата</a></li>
+									<li class="sub-menu__item">
+										<a href="" class="sub-menu__link sub-menu__link_login">Личный кабинет</a>
+										<div class="login">
+											<div class="login__header">
+												<div class="login__title">Вход в личный кабинет</div>
+												<span class="login__close"></span>
+											</div>
+											<div class="login__body">
+												<form action="" class="login__form">
+													<input class="login__input" type="text" name="name" placeholder="ФИО или emal">
+													<input class="login__input" type="password" name="password" placeholder="Пароль">
+													<input type="submit" class="login__input login__input_submit" value="Войти">
+												</form>
+												<div class="login__sub-links">
+													<a href="" class="login__sub-link">Забыли пароль?</a>
+													<a href="" class="login__sub-link">Регистрация</a>
+												</div>
+												<div class="login__social-links">
+													<p class="login__text">Войти через соцсети</p>
+													<a href="" class="login__social-link"><img src="img/icons/vk-icon.png" alt="иконка вконтакте"></a>
+													<a href="" class="login__social-link"><img src="img/icons/google-icon.png" alt="иконка гугл"></a>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="header__row">
+					<div class="container header__flex-block">
+						<div class="header__logo logo">
+							<img src="img/logo.jpg" alt="Логотип белый кот" class="logo__img">
+						</div>
+						<div class="header__menu">
+							<nav class="menu">
+								<div class="menu__box">
+									<ul class="menu__list">
+										<li class="menu__item"><a href="#" class="menu__link menu__link_active">Главная</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Каталог товаров</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Наши условия</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Авто под птс</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="menu__burger burger">
+									<span class="burger__item"></span>
+									<span class="burger__item"></span>
+									<span class="burger__item"></span>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="m-login"></div>
+			</div>
+		</header>
+		<!--END HEADER-->
+
+		<!--CONTENT-->
+		<div class="content">
+			<div class="content__line-item content__line-item_bg">
+				<div class="container">
+					<div class="catalog-search">
+						<div class="catalog-search__column">
+							<div class="categories-btn categories-btn_active">
+								<div class="categories-btn__title">Каталог товаров</div>
+								<div class="categories-btn__burger burger burger_active">
+									<span class="burger__item"></span>
+									<span class="burger__item"></span>
+									<span class="burger__item"></span>
+								</div>
+							</div>
+							<div class="categories-mobile"></div>
+						</div>
+						<div class="catalog-search__column">
+							<div class="content-search">
+								<form id="search-form" action="" class="content-search__form">
+									<input type="text" name="string" class="content-search__input" placeholder="Поиск по товарам..">
+									<button class="content-search__btn" for="search-form"></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="container container_flex">
+				<aside class="content__aside aside">
+					<div class="categories">
+						<div class="categories__body categories__body_active">
+							<ul class="categories__list categories__list_active categories-list">
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/1.png" alt="">
+										<a href="#" class="categories-list__link">Транспорт</a>
+									</div>
+								</li>
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/2.png" alt="">
+										<a href="#" class="categories-list__link">Телефоны</a>
+									</div>
+								</li>
+
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/3.png" alt="">
+										<a href="#" class="categories-list__link">Планшеты/Электронные книги</a>
+									</div>
+								</li>
+
+								<li class="categories-list__item categories-list__item_has-sub">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/4.png" alt="">
+										<a href="#" class="categories-list__link">Компьютеры/ноутбуки</a>
+										<span class="categories-list__arrow-icon"><img src="img/icons/chevron-right.svg" alt=""></span>
+									</div>
+									
+									<div class="categories-list__sub-list sub-list">
+										<div class="sub-list__item">
+											<div class="sub-list__header">
+												<div class="sub-list__title">Компьютеры/ноутбуки</div>
+												<span class="sub-list__close">
+													<img src="img/icons/times-solid.svg" alt="иконка закрытия">
+												</span>
+											</div>
+											<ul class="categories-sub-list">
+												<li class="categories-sub-list__item">
+													<a href="" class="categories-sub-list__link">Компьютеры</a>
+												</li>
+												<li class="categories-sub-list__item">
+													<a href="" class="categories-sub-list__link">Ноутбуки(моноблоки)</a>
+												</li>
+												<li class="categories-sub-list__item">
+													<a href="" class="categories-sub-list__link">Товары для компьютера</a>
+													 <ul class="categories-sub-list__child-list child-list">
+													 	<li class="child-list__item"><a href="#" class="child-list__link">Мониторы</a></li>
+													 </ul>
+												</li>
+											</ul>
+											<div class="categories-list__product">
+												<div class="product">
+													<div class="product__image-box">
+														<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
+													</div>
+													<div class="product__body">
+														<h4 class="product__title">Ноутбук Asus Aspire</h4>
+														<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
+													</div>
+													<div class="product__bottom">
+														<a href="" class="product__card">В корзину</a>
+														<div class="product__price-box">
+															<p class="product__old-price">27900<span>Р</span></p>
+															<p class="product__price">26900<span>Р</span></p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/5.png" alt="">
+										<a href="#" class="categories-list__link">Бытовая электроника</a>
+									</div>
+								</li>
+
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/6.png" alt="">
+										<a href="#" class="categories-list__link">Товары для авто</a>
+									</div>
+								</li>
+
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/7.png" alt="">
+										<a href="#" class="categories-list__link">Ювелирные изделия</a>
+									</div>
+								</li>
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/8.png" alt="">
+										<a href="#" class="categories-list__link">Фото-видео камеры</a>
+									</div>
+								</li>
+								<li class="categories-list__item categories-list__item_has-sub">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/9.png" alt="">
+										<a href="#" class="categories-list__link">Строительные инструменты</a>
+										<span class="categories-list__arrow-icon"><img src="img/icons/chevron-right.svg" alt=""></span>
+									</div>
+									<div class="categories-list__sub-list sub-list">
+										<div class="sub-list__item">
+											<div class="sub-list__header">
+												<div class="sub-list__title">Строительные инструменты</div>
+												<span class="sub-list__close">
+													<img src="img/icons/times-solid.svg" alt="иконка закрытия">
+												</span>
+											</div>
+											<ul class="categories-sub-list">
+												<li class="categories-sub-list__item">
+													<a href="" class="categories-sub-list__link">Компьютеры</a>
+												</li>
+												<li class="categories-sub-list__item">
+													<a href="" class="categories-sub-list__link">Ноутбуки(моноблоки)</a>
+												</li>
+												<li class="categories-sub-list__item">
+													<a href="" class="categories-sub-list__link">Товары для компьютера</a>
+													 <ul class="categories-sub-list__child-list child-list">
+													 	<li class="child-list__item"><a href="#" class="child-list__link">Мониторы</a></li>
+													 </ul>
+												</li>
+											</ul>
+											<div class="product">
+												<div class="product__image-box">
+													<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
+												</div>
+												<div class="product__body">
+													<h4 class="product__title">Ноутбук Asus Aspire</h4>
+													<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
+												</div>
+												<div class="product__bottom">
+													<a href="" class="product__card">В корзину</a>
+													<div class="product__price-box">
+														<p class="product__old-price">27900<span>Р</span></p>
+														<p class="product__price">26900<span>Р</span></p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/11.png" alt="">
+										<a href="#" class="categories-list__link">Часы</a>
+									</div>
+								</li>
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/12.png" alt="">
+										<a href="#" class="categories-list__link">Велосипеды</a>
+									</div>
+								</li>
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/13.png" alt="">
+										<a href="#" class="categories-list__link">Музыкальные инструменты</a>
+									</div>
+								</li>
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/14.png" alt="">
+										<a href="#" class="categories-list__link">Нарды, шахматы, игры</a>
+									</div>
+								</li>
+								<li class="categories-list__item">
+									<div class="categories-list__line-box">
+										<img class="categories-list__icon" src="img/categories/icons/15.png" alt="">
+										<a href="#" class="categories-list__link">Прочее</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="aside__item">
+						<div class="aside__title aside__title_blue">
+							<p>Новости</p>
+						</div>
+						<div class="aside__body">
+							<div class="news">
+								<div class="news__item">
+									<div class="news__image-box">
+										<img src="img/news/visa-mastercard.png" alt="visa-card" class="news__img">
+									</div>
+									<div class="news__description">
+										<a href="" class="news__title">Прием крупногабаритных товаров</a>
+										<div class="news__text">Мы принимаем крупногабаритные товары круглосуточно.</div>
+									</div>
+								</div>
+								<div class="news__item">
+									<div class="news__image-box">
+										<img src="img/news/visa-mastercard.png" alt="visa-card" class="news__img">
+									</div>
+									<div class="news__description">
+										<a href="" class="news__title">Прием крупногабаритных товаров</a>
+										<div class="news__text">Мы принимаем крупногабаритные товары круглосуточно.</div>
+									</div>
+								</div>
+								<div class="news__item">
+									<div class="news__image-box">
+										<img src="img/news/visa-mastercard.png" alt="visa-card" class="news__img">
+									</div>
+									<div class="news__description">
+										<a href="" class="news__title">Прием крупногабаритных товаров</a>
+										<div class="news__text">Мы принимаем крупногабаритные товары круглосуточно.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</aside>
+				<div class="content__body content-body">
+					<!--div class="content-body__item">
+						<div class="main-slider fotorama" data-width="100%" data-height="350" data-arrows="true" data-click="true" data-swipe="true" data-loop="true">
+							<div class="main-slider__item">
+								<div class="main-slider__column">
+									<div class="main-slider__content">
+										<div class="main-slider__title">Оплата товаров и услуг безналичным расчетом</div>
+										<div class="main-slider__text">
+											Принимаем для оплаты карты VISA, Mastercard
+										</div>
+										
+									</div>
+								</div>
+								<div class="main-slider__column">
+									<div class="main-slider__image-box">
+										<img class="main-slider__img" src="img/slider/1-slide.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="main-slider__item main-slider__item_slide2">
+								<div class="main-slider__column">
+									<div class="main-slider__content">
+										<div class="main-slider__title main-slider__title_black">Авто под ПТС</div>
+										<ul class="main-slider__list slider-list">
+											<li class="slider-list__item">Быстрое оформление</li>
+											<li class="slider-list__item">Индивидуальный подход к каждому клиенту</li>
+											<li class="slider-list__item">Лучшие условия</li>
+										</ul>
+										<a href="" class="main-slider__btn main-slider__btn_black">Подробнее</a>
+									</div>
+								</div>
+								<div class="main-slider__column">
+									<div class="main-slider__image-box main-slider__image-box_p1">
+										<img class="main-slider__img" src="img/slider/2-slide.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div-->
+					<!--div class="content-body__item">
+						<div class="offers">
+							<div class="offers__item">
+								<img src="img/icons/offer-1.png" alt="" class="offers__img">
+								<div class="offers__title">
+									Принимаем крупногабаритные товары круглосуточно
+								</div>
+							</div>
+							<div class="offers__item">
+								<img src="img/icons/offer-2.png" alt="" class="offers__img">
+								<div class="offers__title">
+									Доставка товаров по всей России
+								</div>
+							</div>
+							<div class="offers__item">
+								<img src="img/icons/offer-3.png" alt="" class="offers__img">
+								<div class="offers__title">
+									Сниженные % ставки в филиале на Ленина 125
+								</div>
+							</div>
+						</div>
+					</div-->
+					<div class="content-body__item">
+						<div class="goto">
+							<div class="goto__row">
+								<div class="goto__column">
+									<div class="goto__image-box">
+										<img src="img/avto-lomb.png" alt="" class="goto__img">
+									</div>
+								</div>
+								<div class="goto__column">
+									<div class="goto__title">Едем к Вам</div>
+									<div class="goto__subtitle">Вызов специалиста-оценщика на дом</div>
+									<div class="goto__offers-box">
+										<span class="goto__offer">Скупка</span>
+										<span class="goto__offer">Залог</span>
+										<span class="goto__offer">Расчет на месте</span>
+										<span class="goto__offer goto__offer_blue">Быстрый выезд - выгодные условия</span>
+									</div>
+									<div class="goto__contacts">
+										<div class="goto__icons">
+											<img src="img/icons/viber-icon-color.png" alt="" class="goto__icon">
+											<img src="img/icons/telegram-icon-color.png" alt="" class="goto__icon">
+											<img src="img/icons/whatsapp-icon-color.png" alt="" class="goto__icon">
+										</div>
+										<div class="goto__phones">
+											<a href="tel:79626121510" class="goto__phone">+7 962 612-15-10 <span>Автозаводский р-н</span></a>
+											<a href="tel:79053063553" class="goto__phone">+7 905 306-35-53 <span>Центральный р-н</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content-body__item">
+						<div class="gold-price">
+							<div class="gold-price__header">
+								Принимаем драгоценные металлы по следующим ценам:
+							</div>
+							<div class="gold-price__title gold-price__title_585">Золото</div>
+							<div class="gold-price__box">
+								<div class="gold-price__item gold-price__item_585">
+									<div class="gold-price__subtitle">583-585*</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Изделия</p>
+										<p class="gold-price__text gold-price__text_b">до 2500 р/г</p>
+									</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Лом</p>
+										<p class="gold-price__text gold-price__text_b">2200 р/г</p>
+									</div>
+								</div>
+								<div class="gold-price__item gold-price__item_750">
+									<div class="gold-price__subtitle">750*</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Изделия</p>
+										<p class="gold-price__text gold-price__text_b">2800 р/г</p>
+									</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Лом</p>
+										<p class="gold-price__text gold-price__text_b">2800 р/г</p>
+									</div>
+								</div>
+								<div class="gold-price__item gold-price__item_800">
+									<div class="gold-price__subtitle">800*</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Изделия</p>
+										<p class="gold-price__text gold-price__text_b">2990 р/г</p>
+									</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Лом</p>
+										<p class="gold-price__text gold-price__text_b">2990 р/г</p>
+									</div>
+								</div>
+								<div class="gold-price__item gold-price__item_999">
+									<div class="gold-price__subtitle">999*</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Изделия</p>
+										<p class="gold-price__text gold-price__text_b">3750 р/г</p>
+									</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Лом</p>
+										<p class="gold-price__text gold-price__text_b">3750 р/г</p>
+									</div>
+								</div>
+							</div>
+							<div class="gold-price__title gold-price__title_925">Серебро</div>
+							<div class="gold-price__box">
+								<div class="gold-price__item gold-price__item_925">
+									<div class="gold-price__subtitle">925*</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Изделия</p>
+										<p class="gold-price__text gold-price__text_b">до 25 р/г</p>
+									</div>
+									<div class="gold-price__row">
+										<p class="gold-price__text">Лом</p>
+										<p class="gold-price__text gold-price__text_b">15 р/г</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END CONTENT-->
+
+		<!--FOOTER-->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__header">
+					<div class="footer__logo">
+						<img src="img/footer-logo.png" alt="магазин белый кот">
+					</div>
+					<div class="footer__mailler mailler">
+						<div class="mailler__title">Хотите быть в курсе последних поступлений товаров в наш магазин?</div>
+						<form action="" method="" class="mailler__form">
+							<input class="mailler__input" type="email" name="email" placeholder="Ваш email" required>
+							<input type="submit" class="mailler__input mailler__input_submit" value="Подписаться на рассылку">
+						</form>
+					</div>
+				</div>
+				<div class="footer__body">
+					<div class="footer__collumn">
+						<div class="footer__title">Контакты</div>
+						<div class="footer__contacts footer-contacts">
+							<div class="footer-contacts__item">
+								<p class="footer-contacts__text">Степана Разина, д.25</p>
+								<a href="tel:79063370809" class="footer-contacts__link">+7 906 337 08 09</a>
+							</div>
+							<div class="footer-contacts__item">
+								<p class="footer-contacts__text">70 Лет Октября, д.28а "Лада Восход"</p>
+								<a href="tel:79063370809" class="footer-contacts__link">+7 906 337 08 09</a>
+							</div>
+							<div class="footer-contacts__item">
+								<p class="footer-contacts__text">Ленина, д.125</p>
+								<a href="tel:79063370809" class="footer-contacts__link">+7 906 337 08 09</a>
+							</div>
+							<div class="footer-contacts__item">
+								<p class="footer-contacts__text">Мира, д.100</p>
+								<a href="tel:79063370809" class="footer-contacts__link">+7 906 337 08 09</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__collumn footer__collumn_flex">
+						<div class="footer__pages">
+							<div class="footer__title">Разделы</div>
+							<div class="footer-list">
+								<div class="footer-list__collumn">
+									<ul class="footer-list__list">
+										<li class="footer-list__item"><a href="" class="footer-list__link footer-list__link_active">Главная</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">Каталог товаров</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">Наши условия</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">Авто по ПТС</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">О нас</a></li>
+									</ul>
+								</div>
+								<div class="footer-list__collumn">
+									<ul class="footer-list__list">
+										<li class="footer-list__item"><a href="" class="footer-list__link">Контакты</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">Акции</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">Вакансии</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">Доставка/оплата</a></li>
+										<li class="footer-list__item"><a href="" class="footer-list__link">Личный кабинет</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="footer__info">
+							<div class="footer__title">Информация</div>
+							<div class="footer-list">
+								<ul class="footer-list__list">
+									<li class="footer-list__item"><a href="" class="footer-list__link">Политика конфиденциальности</a></li>
+									<li class="footer-list__item"><a href="" class="footer-list__link">Согласие с рассылкой</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__icons">
+						<div class="footer__icon">
+							<img src="img/icons/vk-icon-gray.png" alt="">
+						</div>
+						<div class="footer__icon">
+							<img src="img/icons/telegram-icon-gray.png" alt="">
+						</div>
+						<div class="footer__icon">
+							<img src="img/icons/viber-icon-gray.png" alt="">
+						</div>
+						<div class="footer__icon">
+							<img src="img/icons/whatsup-icon-gray.png" alt="">
+						</div>
+						<div class="footer__icon footer__icon_no-bg">
+							<img src="img/icons/visa-icon.jpg" alt="">
+						</div>
+						<div class="footer__icon footer__icon_no-bg">
+							<img src="img/icons/mastercard-icon.png" alt="">
+						</div>
+					</div>
+					<div class="footer__copyright">
+						<p class="copyright">© 2017-2021 beliykot.com. Все права защищены.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--END FOOTER-->
+	</div>
+	<script src="js/fotorama.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
