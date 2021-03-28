@@ -1,6 +1,12 @@
 
 var $width = $(window).width();
 
+//Втавка фонового изображения в родительский блок из img
+$('.ibg').each(function(){
+	var imageUrl = $(this).find('img').attr('src');
+	$(this).css('background-image', 'url('+ imageUrl +')');
+});
+
 //Показываем - скпываем форму входа в личный кабинет
 $('.sub-menu__link_login').click(function(e){
 	e.preventDefault();
