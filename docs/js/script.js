@@ -1,11 +1,12 @@
 
 var $width = $(window).width();
 
-//Втавка фонового изображения в родительский блок из img
-$('.ibg').each(function(){
+//Задаем фоновое изображение для родительского блока из элемент img
+$('.ibg').each(function(index){
 	var imageUrl = $(this).find('img').attr('src');
 	$(this).css('background-image', 'url('+ imageUrl +')');
 });
+///////////////////////////////////////////
 
 //Показываем - скпываем форму входа в личный кабинет
 $('.sub-menu__link_login').click(function(e){
@@ -98,19 +99,5 @@ $(window).on('load resize', function() {
 	}else{
 		$('.aside').prepend($('.categories'));
 	}
-});
-///////////////////////////////////////////
-
-//Подключаем слайдеры
-var slider = $('.main-slider').fotorama();
-var fotorama = slider.data('fotorama');
-fotorama.startAutoplay(5000);
-///////////////////////////////////////////
-
-//Останавливаем слайдер при наведении на слайд
-$('.main-slider__item').hover(function(){
-	fotorama.stopAutoplay();
-},function(){
-	fotorama.startAutoplay(5000);
 });
 ///////////////////////////////////////////

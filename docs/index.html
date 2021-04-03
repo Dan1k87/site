@@ -86,6 +86,7 @@
 		<div class="content">
 			<div class="content__line-item content__line-item_bg">
 				<div class="container">
+					<!--Бургер Категорий - Поиск по сайту-->
 					<div class="catalog-search">
 						<div class="catalog-search__column">
 							<div class="categories-btn categories-btn_active">
@@ -107,12 +108,12 @@
 							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 
 			<div class="container container_flex">
 				<aside class="content__aside aside">
+					<!--Категирии товаров-->
 					<div class="categories">
 						<div class="categories__body categories__body_active">
 							<ul class="categories__list categories__list_active categories-list">
@@ -167,7 +168,7 @@
 											</ul>
 											<div class="categories-list__product">
 												<div class="product">
-													<div class="product__image-box product__image-box_m ibg">
+													<div class="product__image-box ibg">
 														<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
 													</div>
 													<div class="product__body">
@@ -176,8 +177,8 @@
 													<div class="product__bottom">
 														<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
 														<div class="product__price-box">
-															<p class="product__old-price">27900<span>Р</span></p>
 															<p class="product__price">26900<span>Р</span></p>
+															<p class="product__old-price">27900<span>Р</span></p>
 														</div>
 														<a href="" class="product__card">В корзину</a>
 													</div>
@@ -241,20 +242,22 @@
 													 </ul>
 												</li>
 											</ul>
-											<div class="product">
-												<div class="product__image-box product__image-box_m ibg">
-													<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
-												</div>
-												<div class="product__body">
-													<h4 class="product__title">Ноутбук Asus Aspire</h4>
-												</div>
-												<div class="product__bottom">
-													<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
-													<div class="product__price-box">
-														<p class="product__old-price">27900<span>Р</span></p>
-														<p class="product__price">26900<span>Р</span></p>
+											<div class="categories-list__product">
+												<div class="product">
+													<div class="product__image-box ibg">
+														<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
 													</div>
-													<a href="" class="product__card">В корзину</a>
+													<div class="product__body">
+														<h4 class="product__title">Ноутбук Asus Aspire</h4>
+													</div>
+													<div class="product__bottom">
+														<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
+														<div class="product__price-box">
+															<p class="product__price">26900<span>Р</span></p>
+															<p class="product__old-price">27900<span>Р</span></p>
+														</div>
+														<a href="" class="product__card">В корзину</a>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -293,6 +296,7 @@
 							</ul>
 						</div>
 					</div>
+					<!--Новости-->
 					<div class="aside__item">
 						<div class="aside__title aside__title_blue">
 							<p>Новости</p>
@@ -329,46 +333,53 @@
 							</div>
 						</div>
 					</div>
+					<!--Конец Новости-->
 				</aside>
 				<div class="content__body content-body">
-					<!--div class="content-body__item">
-						<div class="main-slider fotorama" data-width="100%" data-height="350" data-arrows="true" data-click="true" data-swipe="true" data-loop="true">
+					<div class="content-body__item">
+						<!--Главный слайдер-->
+						<div class="main-slider">
 							<div class="main-slider__item">
-								<div class="main-slider__column">
-									<div class="main-slider__content">
-										<div class="main-slider__title">Оплата товаров и услуг безналичным расчетом</div>
-										<div class="main-slider__text">
-											Принимаем для оплаты карты VISA, Mastercard
+								<div class="main-slider__box">
+									<div class="main-slider__column">
+										<div class="main-slider__content">
+											<div class="main-slider__title">Оплата товаров и услуг безналичным расчетом</div>
+											<div class="main-slider__text">
+												Принимаем для оплаты карты VISA, Mastercard
+											</div>
+											
 										</div>
-										
 									</div>
-								</div>
-								<div class="main-slider__column">
-									<div class="main-slider__image-box">
-										<img class="main-slider__img" src="img/slider/1-slide.png" alt="">
+									<div class="main-slider__column">
+										<div class="main-slider__image-box">
+											<img class="main-slider__img" src="img/slider/1-slide.png" alt="">
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="main-slider__item main-slider__item_slide2">
-								<div class="main-slider__column">
-									<div class="main-slider__content">
-										<div class="main-slider__title main-slider__title_black">Авто под ПТС</div>
-										<ul class="main-slider__list slider-list">
-											<li class="slider-list__item">Быстрое оформление</li>
-											<li class="slider-list__item">Индивидуальный подход к каждому клиенту</li>
-											<li class="slider-list__item">Лучшие условия</li>
-										</ul>
-										<a href="" class="main-slider__btn main-slider__btn_black">Подробнее</a>
+							<div class="main-slider__item main-slider__item_bg2">
+								<div class="main-slider__box">
+									<div class="main-slider__column">
+										<div class="main-slider__content">
+											<div class="main-slider__title main-slider__title_black">Авто под ПТС</div>
+											<ul class="main-slider__list slider-list">
+												<li class="slider-list__item">-Быстрое оформление</li>
+												<li class="slider-list__item">-Индивидуальный подход к каждому клиенту</li>
+												<li class="slider-list__item">-Лучшие условия</li>
+											</ul>
+											<a href="" class="main-slider__btn main-slider__btn_black">Подробнее</a>
+										</div>
 									</div>
-								</div>
-								<div class="main-slider__column">
-									<div class="main-slider__image-box main-slider__image-box_p1">
-										<img class="main-slider__img" src="img/slider/2-slide.png" alt="">
+									<div class="main-slider__column">
+										<div class="main-slider__image-box main-slider__image-box_p1">
+											<img class="main-slider__img" src="img/slider/2-slide.png" alt="">
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div-->
+						<!--Конец Слайдер-->
+					</div>
 					<!--div class="content-body__item">
 						<div class="offers">
 							<div class="offers__item">
@@ -392,6 +403,7 @@
 						</div>
 					</div-->
 					<div class="content-body__item">
+						<!--Едем к вам-->
 						<div class="goto">
 							<div class="goto__row">
 								<div class="goto__column">
@@ -422,8 +434,10 @@
 								</div>
 							</div>
 						</div>
+						<!--Конец Едем к вам-->
 					</div>
 					<div class="content-body__item">
+						<!--Цены на металл-->
 						<div class="gold-price">
 							<div class="gold-price__header">
 								Принимаем драгоценные металлы по следующим ценам:
@@ -490,28 +504,23 @@
 								</div>
 							</div>
 						</div>
+						<!--Конец Цены на металл-->
 					</div>
-					<div class="content-body__item content-body__item_bg">
+					<div class="content-body__item content-body__item_bg-w content-body__item_border-rad">
 						<div class="content-body__header">
-							<div class="content-body__title">
-								Последние поступления товаров
-							</div>
+							<div class="content-body__title">Последние поступления товаров</div>
 						</div>
-						<div class="products-list">
-							<div class="products-list__row">
-								<div class="products-list__item">
+						<div class="content-body__body">
+							<div class="product-list-slider">
+								<div class="product-list-slider__item">
 									<div class="product">
-										<a href="#" class="product__link">
-											<div class="product__image-box ibg">
-												<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
-											</div>
-										</a>
+										<div class="product__image-box ibg">
+											<img src="img/products/asus.jpg" alt="" class="product__img">
+										</div>
 										<div class="product__body">
-											<h4 class="product__title">
-												<a href="" class="product__link">
-													Ноутбук Asus Aspire Asus Aspire Asus Aspire
-												</a>
-											</h4>
+											<a href="#" class="product__link">
+												<h4 class="product__title product__title_fix-h">Ноутбук Asus Aspire Ноутбук Asus Aspire</h4>
+											</a>
 										</div>
 										<div class="product__bottom">
 											<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
@@ -523,89 +532,100 @@
 										</div>
 									</div>
 								</div>
-								<div class="products-list__item">
+								<div class="product-list-slider__item">
 									<div class="product">
-										<a href="#" class="product__link">
-											<div class="product__image-box ibg">
-												<img src="img/products/samsung-s10.jpg" alt="" class="product__img">
-											</div>
-										</a>
+										<div class="product__image-box ibg">
+											<img src="img/products/samsung-s10.jpg" alt="" class="product__img">
+										</div>
 										<div class="product__body">
-											<h4 class="product__title">
-												<a href="" class="product__link">
-													Смартфон Samsung S10 128Gb
-												</a>
-											</h4>
+											<h4 class="product__title product__title_fix-h">Samsung S10 128Gb</h4>
 										</div>
 										<div class="product__bottom">
-											<p class="product__text product__text_blue">В наличии на 70 Лет Октября 28а</p>
+											<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
 											<div class="product__price-box">
-												<p class="product__price">39900<span>Р</span></p>
+												<p class="product__price">19900<span>Р</span></p>
 											</div>
 											<a href="" class="product__card">В корзину</a>
 										</div>
 									</div>
 								</div>
-								<div class="products-list__item">
+								<div class="product-list-slider__item">
 									<div class="product">
-										<a href="#" class="product__link">
-											<div class="product__image-box ibg">
-												<img src="img/products/iphone-xr.jpg" alt="" class="product__img">
-											</div>
-										</a>
+										<div class="product__image-box ibg">
+											<img src="img/products/g-shok.jpg" alt="" class="product__img">
+										</div>
 										<div class="product__body">
-											<h4 class="product__title">
-												<a href="" class="product__link">
-													Смартфон iPhone XR 256gb Black
-												</a>
-											</h4>
+											<h4 class="product__title product__title_fix-h">Casio G-Shock</h4>
 										</div>
 										<div class="product__bottom">
 											<p class="product__text product__text_blue">В наличии на Ленина 125</p>
 											<div class="product__price-box">
-												<p class="product__price">59900<span>Р</span></p>
-												<p class="product__old-price">61900<span>Р</span></p>
+												<p class="product__price">3500<span>Р</span></p>
+												<p class="product__old-price">3900<span>Р</span></p>
 											</div>
 											<a href="" class="product__card">В корзину</a>
 										</div>
 									</div>
 								</div>
-								<div class="products-list__item">
+								<div class="product-list-slider__item">
 									<div class="product">
-										<a href="#" class="product__link">
-											<div class="product__image-box ibg">
-												<img src="img/products/Samsung-Gear-S3.jpg" alt="" class="product__img">
-											</div>
-										</a>
+										<div class="product__image-box ibg">
+											<img src="img/products/Iphone-xr.jpg" alt="" class="product__img">
+										</div>
 										<div class="product__body">
-											<h4 class="product__title">
-												<a href="" class="product__link">
-													Smart Watch Samsung Gear 3
-												</a>
-											</h4>
+											<h4 class="product__title product__title_fix-h">iPhone XR 256Gb Black</h4>
+										</div>
+										<div class="product__bottom">
+											<p class="product__text product__text_blue">В наличии на Мира 100</p>
+											<div class="product__price-box">
+												<p class="product__price">49900<span>Р</span></p>
+											</div>
+											<a href="" class="product__card">В корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-slider__item">
+									<div class="product">
+										<div class="product__image-box ibg">
+											<img src="img/products/zoloto.jpg" alt="" class="product__img">
+										</div>
+										<div class="product__body">
+											<h4 class="product__title product__title_fix-h">Золотое кольцо с камнем</h4>
 										</div>
 										<div class="product__bottom">
 											<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
 											<div class="product__price-box">
-												<p class="product__price">12900<span>Р</span></p>
+												<p class="product__price">15900<span>Р</span></p>
 											</div>
 											<a href="" class="product__card">В корзину</a>
 										</div>
 									</div>
 								</div>
-								<div class="products-list__item">
+								<div class="product-list-slider__item">
 									<div class="product">
-										<a href="#" class="product__link">
-											<div class="product__image-box ibg">
-												<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
-											</div>
-										</a>
+										<div class="product__image-box ibg">
+											<img src="img/products/xiaomi-mi5.jpg" alt="" class="product__img">
+										</div>
 										<div class="product__body">
-											<h4 class="product__title">
-												<a href="" class="product__link">
-													Ноутбук Asus Aspire
-												</a>
-											</h4>
+											<h4 class="product__title product__title_fix-h">Смартфон Xiaomi Mi 5</h4>
+										</div>
+										<div class="product__bottom">
+											<p class="product__text product__text_blue">В наличии на 70 Лет Октября 28а</p>
+											<div class="product__price-box">
+												<p class="product__price">5500<span>Р</span></p>
+												<p class="product__old-price">5900<span>Р</span></p>
+											</div>
+											<a href="" class="product__card">В корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-slider__item">
+									<div class="product">
+										<div class="product__image-box ibg">
+											<img src="img/products/asus.jpg" alt="" class="product__img">
+										</div>
+										<div class="product__body">
+											<h4 class="product__title product__title_fix-h">Ноутбук Asus Aspire Ноутбук Asus Aspire</h4>
 										</div>
 										<div class="product__bottom">
 											<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
@@ -617,25 +637,88 @@
 										</div>
 									</div>
 								</div>
-								<div class="products-list__item">
+								<div class="product-list-slider__item">
 									<div class="product">
-										<a href="#" class="product__link">
-											<div class="product__image-box ibg">
-												<img src="img/products/asus-noutbuk.svg" alt="" class="product__img">
-											</div>
-										</a>
+										<div class="product__image-box ibg">
+											<img src="img/products/samsung-s10.jpg" alt="" class="product__img">
+										</div>
 										<div class="product__body">
-											<h4 class="product__title">
-												<a href="" class="product__link">
-													Ноутбук Asus Aspire
-												</a>
-											</h4>
+											<h4 class="product__title product__title_fix-h">Samsung S10 128Gb</h4>
 										</div>
 										<div class="product__bottom">
 											<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
 											<div class="product__price-box">
-												<p class="product__price">26900<span>Р</span></p>
-												<p class="product__old-price">27900<span>Р</span></p>
+												<p class="product__price">19900<span>Р</span></p>
+											</div>
+											<a href="" class="product__card">В корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-slider__item">
+									<div class="product">
+										<div class="product__image-box ibg">
+											<img src="img/products/g-shok.jpg" alt="" class="product__img">
+										</div>
+										<div class="product__body">
+											<h4 class="product__title product__title_fix-h">Casio G-Shock</h4>
+										</div>
+										<div class="product__bottom">
+											<p class="product__text product__text_blue">В наличии на Ленина 125</p>
+											<div class="product__price-box">
+												<p class="product__price">3500<span>Р</span></p>
+												<p class="product__old-price">3900<span>Р</span></p>
+											</div>
+											<a href="" class="product__card">В корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-slider__item">
+									<div class="product">
+										<div class="product__image-box ibg">
+											<img src="img/products/Iphone-xr.jpg" alt="" class="product__img">
+										</div>
+										<div class="product__body">
+											<h4 class="product__title product__title_fix-h">iPhone XR 256Gb Black</h4>
+										</div>
+										<div class="product__bottom">
+											<p class="product__text product__text_blue">В наличии на Мира 100</p>
+											<div class="product__price-box">
+												<p class="product__price">49900<span>Р</span></p>
+											</div>
+											<a href="" class="product__card">В корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-slider__item">
+									<div class="product">
+										<div class="product__image-box ibg">
+											<img src="img/products/zoloto.jpg" alt="" class="product__img">
+										</div>
+										<div class="product__body">
+											<h4 class="product__title product__title_fix-h">Золотое кольцо с камнем</h4>
+										</div>
+										<div class="product__bottom">
+											<p class="product__text product__text_blue">В наличии на Степана Разина 25</p>
+											<div class="product__price-box">
+												<p class="product__price">15900<span>Р</span></p>
+											</div>
+											<a href="" class="product__card">В корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-list-slider__item">
+									<div class="product">
+										<div class="product__image-box ibg">
+											<img src="img/products/xiaomi-mi5.jpg" alt="" class="product__img">
+										</div>
+										<div class="product__body">
+											<h4 class="product__title product__title_fix-h">Смартфон Xiaomi Mi 5</h4>
+										</div>
+										<div class="product__bottom">
+											<p class="product__text product__text_blue">В наличии на 70 Лет Октября 28а</p>
+											<div class="product__price-box">
+												<p class="product__price">5500<span>Р</span></p>
+												<p class="product__old-price">5900<span>Р</span></p>
 											</div>
 											<a href="" class="product__card">В корзину</a>
 										</div>
@@ -750,7 +833,8 @@
 		</footer>
 		<!--END FOOTER-->
 	</div>
-	<script src="js/fotorama.js"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
